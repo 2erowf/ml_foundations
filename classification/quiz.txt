@@ -1,0 +1,5 @@
+High classification accuracy always indicates a good classifier?
+No, depends on training set, if 90% of training data belongs to class A, then a bad classifier that classifies everything to A gives a 90% accuracy. 
+
+For a classifier classifying between 5 classes, there always exists a classifier with accuracy greater than 0.18?
+yes, classifiers are no worse than a complete random guess, which yield 1/n accuracy at worst. in this case, 0.20. 
